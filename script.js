@@ -13,9 +13,8 @@ const player0El = document.querySelector('.player--0');
 const player1El = document.querySelector('.player--1');
 
 // Starting condition
-score0El.textContent = 0; // js will automatically  convert them to string to display them
+score0El.textContent = 0;
 score1El.textContent = 0;
-// dice.style.display = 'none';
 diceEl.classList.add('hidden');
 
 let scores, currentValue, activePlayer, playing;
